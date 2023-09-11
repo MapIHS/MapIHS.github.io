@@ -27,7 +27,7 @@ div#loading > div#icon-loading > p#bg {
 #a {
     text-size: 10px;
 }
-div#MyContent {
+div#myContent {
     display: none;
     z-index: 1;
     position: absolute;
