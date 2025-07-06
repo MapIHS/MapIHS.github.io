@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhamad Maptuhul Ihsan - Flutter Developer & Print Solutions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading" id="loading">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">MMI</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#printing">Printing</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu" id="mobileMenu">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Building Your Vision: From Mobile Apps to Printed Reality</h1>
+            <p>I craft beautiful, cross-platform mobile applications with Flutter and provide high-quality printing solutions for your business.</p>
+            <div class="cta-buttons">
+                <a href="#portfolio" class="btn btn-primary">
+                    <span>See Flutter Apps</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
+                <a href="#printing" class="btn btn-secondary">
+                    <span>Explore Printing Services</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="4" y="4" width="16" height="16" rx="2"/>
+                        <line x1="9" y1="9" x2="15" y2="9"/>
+                        <line x1="9" y1="13" x2="15" y2="13"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills & Services Section -->
+    <section class="services reveal" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Skills & Services</h2>
+                <p>Bridging digital innovation with traditional print excellence</p>
+            </div>
+            <div class="service-grid">
+                <div class="service-category">
+                    <div class="service-header">
+                        <div class="service-icon">📱</div>
+                        <div>
+                            <h3>Mobile Development</h3>
+                            <p>Flutter & Cross-Platform Solutions</p>
+                        </div>
+                    </div>
+                    <p>Creating stunning mobile applications that work seamlessly across iOS and Android platforms with a single codebase.</p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Flutter</span>
+                        <span class="skill-tag">Dart</span>
+                        <span class="skill-tag">Firebase</span>
+                        <span class="skill-tag">Bloc/Provider</span>
+                        <span class="skill-tag">API Integration</span>
+                        <span class="skill-tag">Mobile UI/UX</span>
+                    </div>
+                </div>
+                <div class="service-category">
+                    <div class="service-header">
+                        <div class="service-icon">🖨️</div>
+                        <div>
+                            <h3>Printing & Photocopy</h3>
+                            <p>Professional Print Solutions</p>
+                        </div>
+                    </div>
+                    <p>High-quality printing services for all your business needs, from business cards to large format banners.</p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Digital Printing</span>
+                        <span class="skill-tag">Banners & Posters</span>
+                        <span class="skill-tag">Business Cards</span>
+                        <span class="skill-tag">Document Services</span>
+                        <span class="skill-tag">Brochures</span>
+                        <span class="skill-tag">Custom Design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio reveal" id="portfolio">
+        <div class="container">
+            <div class="section-title">
+                <h2>Flutter Portfolio</h2>
+                <p>Showcasing innovative mobile solutions</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="https://i.ibb.co.com/tTHYVf3q/741shots-so.png" alt="Conito">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-title">Conito App</h3>
+                        <p class="portfolio-description">Free Manhwa and Manhua Reading App Without Ads With more than 50+ Languages available. Conito offers a seamless reading experience with a vast collection of comics from various genres and languages.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Flutter</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">Nest Js</span>
+                            <span class="tech-tag">Provider</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image" style="background: var(--gradient-2);">
+                        <div class="phone-mockup">
+                            <div class="phone-screen"></div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-title">Habit Tracker</h3>
+                        <p class="portfolio-description">Development....</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Flutter</span>
+                            <span class="tech-tag">SQLite</span>
+                            <span class="tech-tag">Charts</span>
+                            <span class="tech-tag">Provider</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Printing Services Section -->
+    <section class="printing-services reveal" id="printing">
+        <div class="container">
+            <div class="section-title">
+                <h2>Printing Services</h2>
+                <p>Quality prints for every business need</p>
+            </div>
+            <div class="print-categories">
+                <button class="category-tab active" onclick="filterPrint('all')">All Products</button>
+                <button class="category-tab" onclick="filterPrint('cards')">Business Cards</button>
+                <button class="category-tab" onclick="filterPrint('marketing')">Marketing Materials</button>
+                <button class="category-tab" onclick="filterPrint('large')">Large Format</button>
+            </div>
+            <div class="print-grid">
+                <div class="print-item" data-category="cards">
+                    <div class="print-image">💼</div>
+                    <div class="print-info">
+                        <h3 class="print-title">Business Cards</h3>
+                        <p>Premium quality cards that make lasting impressions</p>
+                        <button class="quote-btn">Get Quote</button>
+                    </div>
+                </div>
+                <div class="print-item" data-category="marketing">
+                    <div class="print-image" style="background: var(--gradient-2);">📄</div>
+                    <div class="print-info">
+                        <h3 class="print-title">Brochures</h3>
+                        <p>Eye-catching designs for your marketing campaigns</p>
+                        <button class="quote-btn">Get Quote</button>
+                    </div>
+                </div>
+                <div class="print-item" data-category="large">
+                    <div class="print-image">🎯</div>
+                    <div class="print-info">
+                        <h3 class="print-title">Banners</h3>
+                        <p>Large format prints that grab attention</p>
+                        <button class="quote-btn">Get Quote</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about reveal" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-image">MMI</div>
+                <div class="about-text">
+                    <p>Hi, I'm Muhamad Maptuhul Ihsan, a passionate creator who bridges the digital and physical worlds. Whether I'm writing clean, efficient code for a cutting-edge mobile app or ensuring perfect alignment on a printed banner, I'm driven by a commitment to quality and craftsmanship.</p>
+                    <br>
+                    <p>My journey began with a fascination for technology and design, leading me to master Flutter development while maintaining a successful printing business. This unique combination allows me to understand both the digital user experience and the tangible impact of physical marketing materials.</p>
+                    <br>
+                    <p>I believe that great design transcends medium – whether it's pixels on a screen or ink on paper, every project deserves attention to detail and creative excellence.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact reveal" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get In Touch</h2>
+                <p>Let's discuss your next project</p>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="inquiry">Inquiry Type</label>
+                    <select id="inquiry" class="form-control">
+                        <option value="">Select inquiry type</option>
+                        <option value="flutter">Flutter Project Inquiry</option>
+                        <option value="printing">Printing Order</option>
+                        <option value="both">Both Services</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" class="form-control" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <p>Prefer direct contact?</p>
+                <div class="contact-links">
+                    <a href="mailto:contact@maptuhul.com">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="4" width="20" height="16" rx="2"/>
+                            <path d="m22 7-10 5L2 7"/>
+                        </svg>
+                        Email
+                    </a>
+                    <a href="https://github.com/maptuhul" target="_blank">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                        GitHub
+                    </a>
+                    <a href="https://linkedin.com/in/maptuhul" target="_blank">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                        </svg>
+                        LinkedIn
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Muhamad Maptuhul Ihsan. Crafted with passion for digital and print excellence.</p>
+    </footer>
+
+    <script>
+        // Loading Screen
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                document.getElementById('loading').classList.add('hidden');
+            }, 1000);
+        });
+
+        // Navbar Scroll Effect
+        window.addEventListener('scroll', () => {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Mobile Menu Toggle
+        const mobileMenu = document.getElementById('mobileMenu');
+        const navLinks = document.getElementById('navLinks');
+        
+        mobileMenu.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking a link
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+            });
+        });
+
+        // Smooth Scroll for Navigation Links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Reveal on Scroll
+        const revealElements = document.querySelectorAll('.reveal');
+        
+        const revealOnScroll = () => {
+            revealElements.forEach(element => {
+                const elementTop = element.getBoundingClientRect().top;
+                const elementVisible = 150;
+                
+                if (elementTop < window.innerHeight - elementVisible) {
+                    element.classList.add('active');
+                }
+            });
+        };
+
+        window.addEventListener('scroll', revealOnScroll);
+        revealOnScroll(); // Initial check
+
+        // Filter Print Products
+        function filterPrint(category) {
+            const tabs = document.querySelectorAll('.category-tab');
+            const items = document.querySelectorAll('.print-item');
+            
+            // Update active tab
+            tabs.forEach(tab => {
+                tab.classList.remove('active');
+                if (tab.textContent.toLowerCase().includes(category) || 
+                    (category === 'all' && tab.textContent === 'All Products')) {
+                    tab.classList.add('active');
+                }
+            });
+            
+            // Filter items
+            items.forEach(item => {
+                if (category === 'all' || item.dataset.category === category) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        }
+
+        // Form Submission
+        document.querySelector('.contact-form').addEventListener('submit', (e) => {
+            e.preventDefault();
+            // Here you would normally handle form submission
+            alert('Thank you for your message! I will get back to you soon.');
+            e.target.reset();
+        });
+
+        // Quote Button Click
+        document.querySelectorAll('.quote-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.getElementById('inquiry').value = 'printing';
+                document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+
+        // Portfolio Item Click Animation
+        document.querySelectorAll('.portfolio-item').forEach(item => {
+            item.addEventListener('click', () => {
+                // You could add a modal or detailed view here
+                console.log('Portfolio item clicked');
+            });
+        });
+
+        // Add subtle parallax effect to hero section
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const hero = document.querySelector('.hero');
+            hero.style.transform = `translateY(${scrolled * 0.5}px)`;
+        });
+    </script>
+</body>
+</html>
